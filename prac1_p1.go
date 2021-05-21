@@ -7,7 +7,7 @@ import (
 func main() {
 	fvs := Favs()
 	for fv := range fvs {
-		fmt.Println(fv)
+		fmt.Println(fvs[fv])
 	}
 }
 
