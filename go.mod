@@ -1,3 +1,3 @@
-module prac1
+module github.com/Urehelonn/goPrac
 
 go 1.16
