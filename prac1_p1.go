@@ -5,12 +5,12 @@ import (
 )
 
 func main() {
-	fvs := favs()
+	fvs := Favs()
 	for fv := range fvs {
 		fmt.Println(fv)
 	}
 }
 
-func favs() []string {
+func Favs() []string {
 	return []string{"Apple", "Banana", "Orange", "Pineapple"}
 }
